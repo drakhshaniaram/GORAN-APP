@@ -19,7 +19,7 @@ var count;
             });
 			$(xml).find("amar").each(function() {
 				var count=$(this).find("count").text();
-				alert()
+				$("#count").text(count);
             });
             $(xml).find("kandid").each(function () {
                 var id = $(this).find("id").text();

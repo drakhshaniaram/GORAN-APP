@@ -7,20 +7,20 @@ body {
 .jhmare {
 	font-weight: bold;
 	color: #cf6100;
-	font-size:larger;
+	font-size: larger;
 }
 .details_title {
 	color: #04215d;
 	border-bottom: 1px solid #CCC;
-	font-size: 3em;
+	font-size: 2em;
 	clear: both;
 }
 .details_image {
 	float: right;
 	padding: 14px;
 	border-radius: 5px;
-	width: 40.33%;
-	height: 40%;
+	width: 50%;
+	height: 50%;
 }
 .details_text {
 	font-family: tahoma;
@@ -28,7 +28,10 @@ body {
 	text-align: right;
 }
 .splash {
-	background: #14992a;
+	background: #021744;
 	height: 100%;
 	width: 100%;
+}
+.ui-li-count button {
+	text-align: left;
 }

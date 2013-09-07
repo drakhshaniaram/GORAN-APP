@@ -1,8 +1,25 @@
 // JavaScript Document
 var xml;
 var count;
+	$(function() {
+				setTimeout(hideSplash, 2000);
+				});
+		
+		function hideSplash() {
+					$.mobile.changePage("#page", "fade");
+					$(".splash").remove();
+					}
+		jQuery.fn.center = function () {
+			this.css("position","absolute");
+			this.css("top", Math.max(0, (($(window).height() - this.outerHeight()) / 2) +
+														$(window).scrollTop()) + "px");
+			this.css("left", Math.max(0, (($(window).width() - this.outerWidth()) / 2) +
+														$(window).scrollLeft()) + "px");
+			return this;
+		}
     $(document).ready(function(){
-        $.ajax({
+		$("#splashImg").center();
+		$.ajax({
             type: "GET",
             url: "data_src.xml",
             dataType: "xml",
@@ -26,6 +43,7 @@ var count;
                 var name = $(this).find("name").text();
                 var img_adr = $(this).find("img_adr").text();
 				createList(id,name,img_adr);
+				$('#listview').listview('refresh'); 
             });
         }
 		function createList(id,name,img_adr){
@@ -48,7 +66,7 @@ var count;
 				$(listItem).append(a);
                 listview.append(listItem);
 				createPage(id,name,img_adr);
-				$('#listview').listview('refresh'); 
+				
 				}
 			function createPage(id,name,img_adr,text){
 				var pageDiv = document.createElement('div');
@@ -64,6 +82,8 @@ var count;
 				
 				pageDiv.setAttribute("data-role","page");
 				pageDiv.setAttribute("id","kandid"+id);
+				pageDiv.setAttribute("data-add-back-btn","true");
+				pageDiv.setAttribute("data-back-btn-text","گەڕانەوە");
 				headerDiv.setAttribute("data-role","header");
 				contentDiv.setAttribute("data-role","content");
 					content_h2.className="details_title";
@@ -88,4 +108,3 @@ var count;
 				document.getElementById("body").appendChild(pageDiv);
 				}
     });
-        

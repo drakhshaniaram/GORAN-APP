@@ -100,6 +100,372 @@
         <name>فرسەت ساڵح حەسەن</name>
 		<img_adr>20</img_adr>
     </kandid>
+	<kandid>
+    	<id>21</id>
+        <name>ئێڤار ئیبراهیم حسێن</name>
+		<img_adr>21</img_adr>
+    </kandid>
+	<kandid>
+    	<id>22</id>
+        <name>سۆران عومەر حەمەحسێن</name>
+		<img_adr>22</img_adr>
+    </kandid>
+	<kandid>
+    	<id>23</id>
+        <name>ئاسۆ عوسمان قادر</name>
+		<img_adr>23</img_adr>
+    </kandid>
+	<kandid>
+    	<id>24</id>
+        <name>گوڵستان سەعید محەمەد</name>
+		<img_adr>24</img_adr>
+    </kandid>
+	<kandid>
+    	<id>25</id>
+        <name>م.هەردی حەمەئەمین فەتاح</name>
+		<img_adr>25</img_adr>
+    </kandid>
+	<kandid>
+    	<id>26</id>
+        <name>د.هەژار عوسمان مەعروف</name>
+		<img_adr>26</img_adr>
+    </kandid>
+	<kandid>
+    	<id>27</id>
+        <name>محەمەد حەمەرەزا حەمەئەمین</name>
+		<img_adr>27</img_adr>
+    </kandid>
+	<kandid>
+    	<id>28</id>
+        <name>رێبوار خەلیل هیدایەت</name>
+		<img_adr>28</img_adr>
+    </kandid>
+	<kandid>
+    	<id>29</id>
+        <name>هادی ئەکرەم حاتەم</name>
+		<img_adr>29</img_adr>
+    </kandid>
+	<kandid>
+    	<id>30</id>
+        <name>ئامینە محەمەد حەسەن</name>
+		<img_adr>30</img_adr>
+    </kandid>
+	<kandid>
+    	<id>31</id>
+        <name>کەرخی سامی عەلی</name>
+		<img_adr>31</img_adr>
+    </kandid>
+	<kandid>
+    	<id>32</id>
+        <name>ئەنوەر حەمەشەریف محەمەد</name>
+		<img_adr>32</img_adr>
+    </kandid>
+	<kandid>
+    	<id>33</id>
+        <name>م. شەیما جەمال کوێخا غەنی</name>
+		<img_adr>33</img_adr>
+    </kandid>
+	<kandid>
+    	<id>34</id>
+        <name>بێستون محەمەد ساڵح مستەفا</name>
+		<img_adr>34</img_adr>
+    </kandid>
+	<kandid>
+    	<id>35</id>
+        <name>سوارە کەمال محەمەد</name>
+		<img_adr>35</img_adr>
+    </kandid>
+	<kandid>
+    	<id>36</id>
+        <name>رازاو عەبدول مەحمود</name>
+		<img_adr>36</img_adr>
+    </kandid><kandid>
+    	<id>37</id>
+        <name>ئامانج عارف کەریم</name>
+		<img_adr>37</img_adr>
+    </kandid>
+	<kandid>
+    	<id>38</id>
+        <name>سەردار حسێن سۆفی</name>
+		<img_adr>38</img_adr>
+    </kandid>
+	<kandid>
+    	<id>39</id>
+        <name>زولفا مەحمود عەبدوڵا</name>
+		<img_adr>39</img_adr>
+    </kandid>
+	<kandid>
+    	<id>40</id>
+        <name>رۆبیتەن سەردار عەزیز</name>
+		<img_adr>40</img_adr>
+    </kandid>
+	<kandid>
+    	<id>41</id>
+        <name>م. عەبدولڕەحمان عەلی رەزا</name>
+		<img_adr>41</img_adr>
+    </kandid>
+	<kandid>
+    	<id>42</id>
+        <name>تانیا عوسمان عەزیز</name>
+		<img_adr>42</img_adr>
+    </kandid>
+	<kandid>
+    	<id>43</id>
+        <name>هێمن فەرید ئەحمەد</name>
+		<img_adr>43</img_adr>
+    </kandid><kandid>
+    	<id>44</id>
+        <name>شیروان یوسف کلش</name>
+		<img_adr>44</img_adr>
+    </kandid><kandid>
+    	<id>45</id>
+        <name>پەری ساڵح حەمید</name>
+		<img_adr>45</img_adr>
+    </kandid><kandid>
+    	<id>46</id>
+        <name>بەختیار عەبدولڕەحمان فەتاح</name>
+		<img_adr>46</img_adr>
+    </kandid><kandid>
+    	<id>47</id>
+        <name>رەحمان خدر ئیبراهیم</name>
+		<img_adr>47</img_adr>
+    </kandid><kandid>
+    	<id>48</id>
+        <name>نەوال عەبدولا رەشید</name>
+		<img_adr>48</img_adr>
+    </kandid><kandid>
+    	<id>49</id>
+        <name>مەجید ساڵح عەزیز</name>
+		<img_adr>49</img_adr>
+    </kandid>
+	<kandid>
+    	<id>50</id>
+        <name>غەریب عەبدولڕەحمان عەبدولکەریم</name>
+		<img_adr>50</img_adr>
+    </kandid>
+	<kandid>
+    	<id>51</id>
+        <name>شەهلا حەمەموراد رەشید</name>
+		<img_adr>51</img_adr>
+    </kandid><kandid>
+    	<id>52</id>
+        <name>سەردار مەحمود ئەحمەد</name>
+		<img_adr>52</img_adr>
+    </kandid><kandid>
+    	<id>53</id>
+        <name>محەمەد رەفعەت فەتحوڵا</name>
+		<img_adr>53</img_adr>
+    </kandid>
+	<kandid>
+    	<id>54</id>
+        <name>منیرە عوسمان عەلی</name>
+		<img_adr>54</img_adr>
+    </kandid><kandid>
+    	<id>55</id>
+        <name>ئەزوەر جەعفەر بابەکر</name>
+		<img_adr>55</img_adr>
+    </kandid>
+	<kandid>
+    	<id>56</id>
+        <name>رەنج تاهیر عەلی ئەفەندی</name>
+		<img_adr>56</img_adr>
+    </kandid>
+	<kandid>
+    	<id>57</id>
+        <name>بەهار مەحمود فەتاح</name>
+		<img_adr>57</img_adr>
+    </kandid>
+	<kandid>
+    	<id>58</id>
+        <name>د. شێرکۆ حەمەئەمین قادر</name>
+		<img_adr>58</img_adr>
+    </kandid>
+	<kandid>
+    	<id>59</id>
+        <name>رەوەند سابر عەبدولقادر</name>
+		<img_adr>59</img_adr>
+    </kandid><kandid>
+    	<id>60</id>
+        <name>چنور عوسمان مەردان</name>
+		<img_adr>60</img_adr>
+    </kandid>
+	<kandid>
+    	<id>61</id>
+        <name>ئاوات حسێن تۆفیق</name>
+		<img_adr>61</img_adr>
+    </kandid><kandid>
+    	<id>62</id>
+        <name>د. خەڵات جەناب نوری</name>
+		<img_adr>62</img_adr>
+    </kandid>
+	<kandid>
+    	<id>63</id>
+        <name>شەرمین کەریم حەمەد</name>
+		<img_adr>63</img_adr>
+    </kandid><kandid>
+    	<id>64</id>
+        <name>رەمزی مەجید فەردە سورچی</name>
+		<img_adr>64</img_adr>
+    </kandid><kandid>
+    	<id>65</id>
+        <name>بەختیار حەمید مەجید</name>
+		<img_adr>65</img_adr>
+    </kandid>
+	<kandid>
+    	<id>66</id>
+        <name>سەمیرە عەزیز مارف</name>
+		<img_adr>66</img_adr>
+    </kandid><kandid>
+    	<id>67</id>
+        <name>سەوسەن رەئوف فەتاح</name>
+		<img_adr>67</img_adr>
+    </kandid><kandid>
+    	<id>68</id>
+        <name>هێمن محەمەد رەشید</name>
+		<img_adr>68</img_adr>
+    </kandid><kandid>
+    	<id>69</id>
+        <name>شیلان تۆفیق حەسەن</name>
+		<img_adr>69</img_adr>
+    </kandid><kandid>
+    	<id>70</id>
+        <name>عەتا ئەحمەد محەمەد</name>
+		<img_adr>70</img_adr>
+    </kandid>
+	<kandid>
+    	<id>71</id>
+        <name>گەیلان عومەر عوبەیدوڵا</name>
+		<img_adr>71</img_adr>
+    </kandid><kandid>
+    	<id>72</id>
+        <name>م. سەوزە عەبدوڵا ئیسماعیل</name>
+		<img_adr>72</img_adr>
+    </kandid><kandid>
+    	<id>73</id>
+        <name>نەژاد جەلال محەمەد</name>
+		<img_adr>73</img_adr>
+    </kandid><kandid>
+    	<id>74</id>
+        <name>ئومێد حەمەعەلی ساڵح</name>
+		<img_adr>74</img_adr>
+    </kandid><kandid>
+    	<id>75</id>
+        <name>نازدار ئەسعەد نادر</name>
+		<img_adr>75</img_adr>
+    </kandid><kandid>
+    	<id>76</id>
+        <name>مەحمود حاجی عومەر</name>
+		<img_adr>76</img_adr>
+    </kandid>
+	<kandid>
+    	<id>77</id>
+        <name>م. هاوژین رەئوف حەسەن</name>
+		<img_adr>77</img_adr>
+    </kandid>
+	<kandid>
+    	<id>78</id>
+        <name>بەهار عەبدوڵقادر محەمەد</name>
+		<img_adr>78</img_adr>
+    </kandid><kandid>
+    	<id>79</id>
+        <name>ئەیوب عەبدوڵا ئیسماعیل</name>
+		<img_adr>79</img_adr>
+    </kandid><kandid>
+    	<id>80</id>
+        <name>پشکۆ حەمەفەرەج محەمەد</name>
+		<img_adr>80</img_adr>
+    </kandid><kandid>
+    	<id>81</id>
+        <name>زانیار ئەحمەد حەمید</name>
+		<img_adr>81</img_adr>
+    </kandid><kandid>
+    	<id>82</id>
+        <name>ساڵح محەمەد قادر</name>
+		<img_adr>82</img_adr>
+    </kandid>
+	<kandid>
+    	<id>83</id>
+        <name>فارس حسێن عەبدوڵا</name>
+		<img_adr>83</img_adr>
+    </kandid>
+	<kandid>
+    	<id>84</id>
+        <name>دیمەن عەبدولڕەحمان محەمەد</name>
+		<img_adr>84</img_adr>
+    </kandid>
+	<kandid>
+    	<id>85</id>
+        <name>کامەران کەریم حەمەساڵح</name>
+		<img_adr>85</img_adr>
+    </kandid>
+	<kandid>
+    	<id>86</id>
+        <name>ئەنوەر قادر مستەفا</name>
+		<img_adr>86</img_adr>
+    </kandid>
+	<kandid>
+    	<id>87</id>
+        <name>شاناز محەمەد رەشید </name>
+		<img_adr>87</img_adr>
+    </kandid>
+	<kandid>
+    	<id>88</id>
+        <name>ئاراس حەسەن عەبدولقادر</name>
+		<img_adr>88</img_adr>
+    </kandid>
+	<kandid>
+    	<id>89</id>
+        <name>عەبدولسەمەد خزر عەبدوڵا</name>
+		<img_adr>89</img_adr>
+    </kandid>
+	<kandid>
+    	<id>90</id>
+        <name>م. کەژاڵ عەلی محەمەد</name>
+		<img_adr>90</img_adr>
+    </kandid>
+	<kandid>
+    	<id>91</id>
+        <name>نەریمان سەلام ساڵح</name>
+		<img_adr>91</img_adr>
+    </kandid>
+	<kandid>
+    	<id>92</id>
+        <name>بەهادین ئیبراهیم فارس</name>
+		<img_adr>92</img_adr>
+    </kandid>
+	<kandid>
+    	<id>93</id>
+        <name>دڵپاک جەبار مەلا عەلی</name>
+		<img_adr>93</img_adr>
+    </kandid><kandid>
+    	<id>94</id>
+        <name>رابون تۆفیق مەعروف</name>
+		<img_adr>94</img_adr>
+    </kandid><kandid>
+    	<id>95</id>
+        <name>ئازاد ئەسعەد حاجی</name>
+		<img_adr>95</img_adr>
+    </kandid><kandid>
+    	<id>96</id>
+        <name>رۆزا مەحمود عوسمان</name>
+		<img_adr>96</img_adr>
+    </kandid><kandid>
+    	<id>97</id>
+        <name>رێباز ئەنوەر ئەحمەد</name>
+		<img_adr>97</img_adr>
+    </kandid><kandid>
+    	<id>98</id>
+        <name>د. ئاسۆ مەحمود رۆستەم</name>
+		<img_adr>98</img_adr>
+    </kandid><kandid>
+    	<id>99</id>
+        <name>بەکرە حەمەسدیق حەمەحسێن</name>
+		<img_adr>99</img_adr>
+    </kandid><kandid>
+    	<id>100</id>
+        <name>د. سلێمان جەعفەر محەمەد</name>
+		<img_adr>100</img_adr>
+    </kandid>
 	<barnamayList>
 		<title>پەیام و بەرنامەی لیستی گۆڕان</title>
 		<text> 
@@ -133,6 +499,6 @@
 		<img_adr>icon</img_adr>
 	</barnamayList>
 	<amar>
-		<count>200000</count>
+		<count>200</count>
 	</amar>
 </kandids>

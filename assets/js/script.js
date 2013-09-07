@@ -10,19 +10,16 @@ var xml;
 		//loading XML file and parsing to .main div.
 		 function xmlParser(data) {
             xml = data;
-            $('#load').fadeOut();
             $(xml).find("kandid").each(function () {
                 var id = $(this).find("id").text();
                 var name = $(this).find("name").text();
                 var img_adr = $(this).find("img_adr").text();
-                var programs = $(this).find("programs").text();
-				var contact = $(this).find("contact").text();
-				createList(id,name,img_adr,programs,contact);
+				createList(id,name,img_adr);
             });
         }
-		function createList(id,name,img_adr,programs,contact){
+		function createList(id,name,img_adr){
 			
-				var listview=document.getElementById("listview");
+				var listview=$("#listview");
 				
 				var listItem = document.createElement('li');
 				var a = document.createElement("a");
@@ -36,15 +33,14 @@ var xml;
 				h3.innerHTML=name;
 				p.innerHTML=id;
         		
-				a.appendChild(img);a.appendChild(h3);a.appendChild(p);
-				listItem.appendChild(a);
-                listview.appendChild(listItem);
-				createPage(id,name,img_adr,programs,contact);
+				$(a).append(img);$(a).append(h3);$(a).append(p);
+				$(listItem).append(a);
+                listview.append(listItem);
+				createPage(id,name,img_adr);
 				$('#listview').listview('refresh'); 
 				}
-			function createPage(id,name,img_adr,programs,contact){
+			function createPage(id,name,img_adr){
 				
 				}
     });
         
-       

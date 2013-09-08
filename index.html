@@ -6,20 +6,43 @@
         <script src="jquery-1.6.4.min.js"></script>
         <script src="jquery.mobile-1.0.min.js"></script>
         <script src="script.js"></script>
+        <script type="text/javascript">
+            /*$(document).ready(function()
+            {    
+                var parent = document.getElementById('content');
+           
+                var listview = document.createElement('ul');
+                listview.setAttribute('id','listview');
+                listview.setAttribute('data-role','listview');
+                listview.setAttribute('data-inset','true');
+                listview.setAttribute('data-theme','c');
+                listview.setAttribute('data-dividertheme','b');
+               
+                var listdiv = document.createElement('li');
+                listdiv.setAttribute('id','listdiv');
+                listdiv.setAttribute('data-role','list-divider');
+                listdiv.innerHTML = "List of Items";
+               
+                var listItem = document.createElement('li');
+                listItem.setAttribute('id','listitem');
+                listItem.innerHTML = "FIRST ITEM";
+         
+                parent.appendChild(listview);
+                listview.appendChild(listdiv);
+                listview.appendChild(listItem);
+            });
+           
+            $(listview).listview('refresh');*/
+            </script>
     </head>
-</head>
-<body>
-<div data-role="page" id="page">
-	<div data-role="header"> 
-		<h1>کاندیدەکانی ی.ن.ک</h1>
-	</div>
-	<div data-role="content">	
-		<ul data-role="listview" id="kandidList" data-filter="true" data-filter-placeholder="دۆزینەوەی کاندیدی دڵخواز...">
-		</ul>		
-	</div>
-	<div data-role="footer">
-		<h4>دەنگی هەموومان: یەکێتی نیشتمانی کوردستان</h4>
-	</div>
-</div>
-</body>
+    <body>
+    <div data-role="page">
+        <div data-role="header" id="header">
+            <h1>Items</h1>
+        </div><!-- /header -->
+        <div data-role="content" id="content">       
+                <ol data-role="listview" id="kandidList"></ol>
+        </div><!-- /content -->
+    </div><!-- /page -->
+   </body>
 </html>

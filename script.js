@@ -30,7 +30,7 @@ var xml;
 				var h3 = document.createElement("h3");
 				var p = document.createElement("p");
 				
-				img.setAttribute("src","images/"+img_adr+".jpg");
+				img.setAttribute("src","GoranPictures/"+img_adr+".jpg")
 				a.setAttribute("href","#"+id);
 				p.className="jhmare";
 				h3.innerHTML=name;

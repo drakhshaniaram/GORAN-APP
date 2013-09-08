@@ -1,24 +1,16 @@
 // JavaScript Document
 var xml;
 var count;
-	$(function() {
-				setTimeout(hideSplash, 2000);
-				});
-		
-		function hideSplash() {
-					$.mobile.changePage("#page", "fade");
-					$(".splash").remove();
-					}
-		jQuery.fn.center = function () {
-			this.css("position","absolute");
-			this.css("top", Math.max(0, (($(window).height() - this.outerHeight()) / 2) +
-														$(window).scrollTop()) + "px");
-			this.css("left", Math.max(0, (($(window).width() - this.outerWidth()) / 2) +
-														$(window).scrollLeft()) + "px");
-			return this;
-		}
     $(document).ready(function(){
-		$("#splashImg").center();
+		/*jQuery.fn.center = function () {
+				this.css("position","absolute");
+				this.css("top", Math.max(0, (($(window).height() - this.outerHeight()) / 2) +
+															$(window).scrollTop()) + "px");
+				this.css("left", Math.max(0, (($(window).width() - this.outerWidth()) / 2) +
+															$(window).scrollLeft()) + "px");
+				return this;
+			}
+			$("#splashImg").center();*/
 		$.ajax({
             type: "GET",
             url: "data_src.xml",

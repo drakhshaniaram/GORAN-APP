@@ -11,12 +11,27 @@
         <script type="text/javascript" src="assets/js/script.js"></script>
     </head>
 <body id="body">
-	<div data-role="page" id="splash"> 
+<!--	<div data-role="page" id="splash"> 
       <div class="splash">
         <img src="GoranPictures/icon.png" id="splashImg" alt="Goran Logo" />
+        <script type="text/javascript">
+        	//<![CDATA[ 
+            $(window).load(function(){
+            $(function() {
+                setTimeout(hideSplash, 3000);
+                        });	
+
+            function hideSplash() {
+            $.mobile.changePage("#home", "fade");
+			$(".splash").remove();
+            }
+
+			
+						});//]]>  
+        </script>
 	</div>
-    </div>
-    <div data-role="page" id="page">
+    </div>-->
+    <div data-role="page" id="home">
         <div data-role="header" id="header">
             <h1>کاندیدەکانی گۆڕان (لیستی 117)</h1>
         </div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+<head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="jquery.mobile-1.0.min.css" />
+        <script src="jquery-1.6.4.min.js"></script>
+        <script src="jquery.mobile-1.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function()
+            {    
+                var parent = document.getElementById('content');
+           
+                var listview = document.createElement('ul');
+                listview.setAttribute('id','listview');
+                listview.setAttribute('data-role','listview');
+                listview.setAttribute('data-inset','true');
+                listview.setAttribute('data-theme','c');
+                listview.setAttribute('data-dividertheme','b');
+               
+                var listdiv = document.createElement('li');
+                listdiv.setAttribute('id','listdiv');
+                listdiv.setAttribute('data-role','list-divider');
+                listdiv.innerHTML = "List of Items";
+               
+                var listItem = document.createElement('li');
+                listItem.setAttribute('id','listitem');
+                listItem.innerHTML = "FIRST ITEM";
+         
+                parent.appendChild(listview);
+                listview.appendChild(listdiv);
+                listview.appendChild(listItem);
+            });
+           
+            $(listview).listview('refresh');
+            </script>
+    </head>
+    <body>
+    <div data-role="page">
+        <div data-role="header" id="header">
+            <h1>Items</h1>
+        </div><!-- /header -->
+        <div data-role="content" id="content">       
+                <button type="button" onclick=addItem();>Click Me!</button>
+        </div><!-- /content -->
+    </div><!-- /page -->
+</html>

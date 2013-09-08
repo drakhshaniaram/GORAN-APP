@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.example"
     version   = "1.0.0">
-<icon src="GoranPictures/icon.png" />
+<icon src="assets/GoranPictures/icon.png" />
 <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 <name>لیستی گۆڕان 117</name>
 <description>

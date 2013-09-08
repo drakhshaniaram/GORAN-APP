@@ -6,47 +6,34 @@
         <link rel="stylesheet" href="assets/css/jquery.mobile-1.0.min.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" href="themes/Goran1.min.css" />
-        <script type="text/javascript" src="assets/js/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.mobile-1.0.min.js"></script>
-        <script type="text/javascript" src="assets/js/script.js"></script>
-		<script type="text/javascript" src="assets/js/LightningTouch.js"></script>
     </head>
 <body id="body">
-<!--	<div data-role="page" id="splash"> 
-      <div class="splash">
-        <img src="GoranPictures/icon.png" id="splashImg" alt="Goran Logo" />
-        <script type="text/javascript">
-        	//<![CDATA[ 
-            $(window).load(function(){
-            $(function() {
-                setTimeout(hideSplash, 3000);
-                        });	
-
-            function hideSplash() {
-            $.mobile.changePage("#home", "fade");
-			$(".splash").remove();
-            }
-
-			
-						});//]]>  
-        </script>
-	</div>
-    </div>-->
     <div data-role="page" id="home">
         <div data-role="header" id="header">
-            <h1>کاندیدەکانی گۆڕان (لیستی 117)</h1>
+            <h1> 
+            	<img src="GoranPictures/icon.png" 
+            		style="width:32px; height:32px; vertical-align:middle" /> کاندیدەکانی گۆڕان  (لیستی 117) </h1>
+            <div data-role="navbar">
+              <ul>
+                <li><a href="#about" data-transition="flip" data-icon="check"> دەنگ بدە بە گۆڕان - <span class="ui-li-count">کۆی دەنگەکان <span id="count"></span> </span></a></li>
+                <li><a href="#links" data-icon="star">
+                 بەرنامەکانی گۆڕان </a></li>
+              </ul>
+            </div>
         </div>
         
         <div data-role="content" id="content">       
                 <ul data-role="listview" id="listview" data-filter="true" data-filter-placeholder="کاندیدی دڵخوازت بدۆزەوە..." data-inset="true">
-                <li style="text-align:center;">
-                            <button class="ui-btn-hidden" data-form="ui-btn-up-a" data-theme="a" data-icon="star" data-disabled="false">دەنگ بدە بە گۆڕان</button><span class="ui-li-count">کۆی دەنگەکان <span id="count"></span> </span></li>
-                 <li style="text-align:center;"><a href="#kandid00">
-                            <button class="ui-btn-hidden" data-form="ui-btn-up-a" data-theme="a" data-icon="check" data-disabled="false">بەرنامەکانی گۆڕان</button></a>
-                       </li>       
-                <li></li>
+                </ul>
+        </div>
+        <div data-role="footer">       
+                <h4>پرۆگرامەر: جلال درخشانی</h4>
                 </ul>
         </div>
     </div><!-- /page -->
+    	<script type="text/javascript" src="assets/js/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.mobile-1.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+		<script type="text/javascript" src="assets/js/LightningTouch.js"></script>
    </body>
 </html>

@@ -5,123 +5,21 @@
         <link rel="stylesheet" href="jquery.mobile-1.0.min.css" />
         <script src="jquery-1.6.4.min.js"></script>
         <script src="jquery.mobile-1.0.min.js"></script>
-        <script>
-      
-      function createListView(data) {
-
-        var moviesData = ["Titanic", "Spiderman", "Toy Story 3", "Iron Man 2",
-        					"Terminator","Hackers", "Matrix"];
-
-	    $.each(moviesData, function(index, movie) {
-
-		    $('#result-listview').append(
-		      '<li>'  +
-		        '<a href="" onclick="changePage(id_' + index + ');">' +
-					'<h3>' + movie + '</h3>' +
-				'</a>' +
-		      '</li>'
-		    );
-
-		    /*
-				Here we are dynamically creating a new page.
-				When a list item is clicked, this is what is actually shown.
-				Do not forget to append this block of code
-				to the body tag. If appended mistakenly somewhere else,
-				the code wont work.
-		    */
-		    content = 	'<div data-role="page" id="id_' + index + '" data-url="id_' + index + '">' +
-							'<div data-role="header">' +
-							'<a href="#" data-rel="back" data-icon="back">Back</a>' +
-							  '<h1>' + movie + '</h1>' +
-							'</div>' +
-							'<div data-role="content">' +
-							  '<p>' +
-							    '<div data-role="fieldcontain" class="result">' +
-							    '</div>' +
-							  '</p>' +
-							'</div>' +
-					    '</div>';
-	    
-
-			$('body').append(content).trigger('create');
-
-			/*Tell JQM to enhance the page with the required classes.*/
-			$(index).page();
-
-        });	// end for each
-		
-	  	$('#result-listview').listview('refresh');
-      }
-
-	 /*This function helps is mapping each listitem to its correspondig 
-	 handler.*/ 
-	function changePage(id) {
-		$.mobile.changePage($(id), {transition : "slide"});
-	}
-
-    </script>
-        <!--<script type="text/javascript">
-            $(document).ready(function()
-            {    
-                var parent = document.getElementById('content');
-           
-                var listview = document.createElement('ul');
-                listview.setAttribute('id','listview');
-                listview.setAttribute('data-role','listview');
-                listview.setAttribute('data-inset','true');
-                listview.setAttribute('data-theme','c');
-                listview.setAttribute('data-dividertheme','b');
-               
-                var listdiv = document.createElement('li');
-                listdiv.setAttribute('id','listdiv');
-                listdiv.setAttribute('data-role','list-divider');
-                listdiv.innerHTML = "List of Items";
-               
-                var listItem = document.createElement('li');
-                listItem.setAttribute('id','listitem');
-                listItem.innerHTML = "FIRST ITEM";
-         
-                parent.appendChild(listview);
-                listview.appendChild(listdiv);
-                listview.appendChild(listItem);
-            });
-           
-            $(listview).listview('refresh');
-            </script>-->
+        <script src="script.js"></script>
     </head>
-    
-	
-    <style>
-      
-    </style>
-
 </head>
 <body>
-			
-    <div data-role="page" id="home">
-	<div data-role="header" data-add-back-btn="true">                            <!-- This div with data-role is the header, shown in the black -->
-	  <h1>Dynamic Listview</h1>
-	</div> 
-
-	 <div data-role="content">
-
-		  <br/>
-		  <div class="result">
-		      <a href="#" data-role="button" data-inline="true" onclick="createListView();">Create Dynamic Listview</a>
-		  </div>
-		   
-		   <!-- This is where the result of dynamically created listitems will be appended. -->
-		  <ul id="result-listview" class="listview" data-role="listview" data-theme="b">
-		  
-		  </ul>
-	   
+<div data-role="page" id="page">
+	<div data-role="header"> 
+		<h1>کاندیدەکانی ی.ن.ک</h1>
 	</div>
-
-	<!--Footer starts here-->
-	<div data-role="footer" data-position="fixed">
-	   
+	<div data-role="content">	
+		<ul data-role="listview" id="kandidList" data-filter="true" data-filter-placeholder="دۆزینەوەی کاندیدی دڵخواز...">
+		</ul>		
 	</div>
-			
-	</div>  <!--main page end-->
+	<div data-role="footer">
+		<h4>دەنگی هەموومان: یەکێتی نیشتمانی کوردستان</h4>
+	</div>
+</div>
 </body>
 </html>

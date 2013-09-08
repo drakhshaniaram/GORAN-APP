@@ -1,8 +1,10 @@
 <!DOCTYPE html> 
 <html>
 <head>
+		<meta charset="utf-8">
         <title>Page Title</title>
         <link rel="stylesheet" href="jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="jquery-1.6.4.min.js"></script>
         <script src="jquery.mobile-1.0.min.js"></script>
         <script src="script.js"></script>
@@ -38,11 +40,12 @@
     <body>
     <div data-role="page">
         <div data-role="header" id="header">
-            <h1>Items</h1>
-        </div><!-- /header -->
+            <h1>کاندیدەکانی گۆڕان (لیستی 117)</h1>
+        </div>
+        
         <div data-role="content" id="content">       
-                <ol data-role="listview" id="kandidList"></ol>
-        </div><!-- /content -->
+                <ul data-role="listview" id="listview" data-inset="true" data-theme="c"></ul>
+        </div>
     </div><!-- /page -->
    </body>
 </html>

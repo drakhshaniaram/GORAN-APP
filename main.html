@@ -9,24 +9,17 @@
     </head>
 <body id="body">
     <div data-role="page" id="home">
-        <div data-role="header" id="header">
+        <div data-role="header" id="header" data-position="fixed">
             <h1> 
             	<img src="GoranPictures/icon.png" 
             		style="width:32px; height:32px; vertical-align:middle" /> کاندیدەکانی گۆڕان  (لیستی 117) </h1>
-            <div data-role="navbar">
-              <ul>
-                <li><a href="#about" data-transition="flip" data-icon="check"> دەنگ بدە بە گۆڕان - <span class="ui-li-count">کۆی دەنگەکان <span id="count"></span> </span></a></li>
-                <li><a href="#links" data-icon="star">
-                 بەرنامەکانی گۆڕان </a></li>
-              </ul>
-            </div>
         </div>
         
         <div data-role="content" id="content">       
                 <ul data-role="listview" id="listview" data-filter="true" data-filter-placeholder="کاندیدی دڵخوازت بدۆزەوە..." data-inset="true">
                 </ul>
         </div>
-        <div data-role="footer">       
+        <div data-role="footer" data-position="fixed">       
                 <h4>پرۆگرامەر: جلال درخشانی</h4>
                 </ul>
         </div>
@@ -35,5 +28,6 @@
         <script type="text/javascript" src="assets/js/jquery.mobile-1.0.min.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
 		<script type="text/javascript" src="assets/js/LightningTouch.js"></script>
+        <script type="application/javascript" src="assets/js/iscroll.js?v4"></script>
    </body>
 </html>

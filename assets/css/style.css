@@ -4,6 +4,18 @@ body {
 	direction: rtl;
 	text-align: right;
 }
+#header {
+	position:absolute;
+	top:0; left:0;
+	width:100%;
+	height:45px;
+	line-height:45px;
+	padding:0;
+	color:#eee;
+	font-size:20px;
+	text-align:center;
+}
+
 .jhmare {
 	font-weight: bold;
 	color: #cf6100;
